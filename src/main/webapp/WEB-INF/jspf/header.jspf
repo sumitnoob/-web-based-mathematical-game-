@@ -1,0 +1,20 @@
+<%-- Shared page header. The including page defines: String pageTitle, String active --%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= pageTitle %> | SUMIT &ndash; MATH WHIZ</title>
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1 class="brand"><span class="sigma">&sum;</span> SUMIT &ndash; <em>MATH WHIZ</em></h1>
+    <nav class="nav">
+      <a href="${pageContext.request.contextPath}/" class="<%= "home".equals(active) ? "on" : "" %>">Home</a>
+      <a href="${pageContext.request.contextPath}/leaderboard" class="<%= "board".equals(active) ? "on" : "" %>">Leaderboard</a>
+      <a href="${pageContext.request.contextPath}/lab" class="<%= "lab".equals(active) ? "on" : "" %>">Math Lab</a>
+    </nav>
+  </header>
+  <main>
