@@ -4,7 +4,7 @@ A web-based mathematical game built with **Java Servlets, JSP and JDBC (MySQL)**
 The player enters a name, answers four maths challenges, sees the final score and can view the **Top 10 leaderboard**.
 
 > **Live project directory (GitHub):**
-> https://github.com/sumitnoob/-web-based-mathematical-game-/tree/main/MathWhiz
+> https://github.com/sumitnoob/-web-based-mathematical-game-
 
 ---
 
@@ -218,7 +218,7 @@ All of these are automated in `src/test/java/service` (24 JUnit tests) and can a
 
 ## GitHub Project Directory
 
-https://github.com/sumitnoob/-web-based-mathematical-game-/tree/main/MathWhiz
+https://github.com/sumitnoob/-web-based-mathematical-game-
 
 ---
 *Author: Sumit — Java Web Application Development, Live Lab Test #2.*
